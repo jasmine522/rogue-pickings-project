@@ -136,8 +136,8 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border-left: none;
+	border-right: none;
 }
 
 .section-two h4,
@@ -165,6 +165,8 @@ header nav ul li a{
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
+	border-left: none;
+	border-right: none;
 }
 
 .address {
@@ -213,7 +215,7 @@ footer span {
 		header {
 				justify-content: space-between;
 		}
-		
+
 		header h1 {
 				width: 30%;
 				padding: 0;
